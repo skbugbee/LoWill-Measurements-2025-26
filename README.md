@@ -6,13 +6,13 @@ This repository contains all data and documentation for the Lower Willapa River 
 
 - `lowill_field_methods.pdf` — Field methods
 - Sensor data files by location *(covers measurements up to the March retrieval; update as needed)*
-- **Total Water Level dataset** — Datetimes [PST] and TWL NAVD88 [m] for all locations
-- **Complete dataset** — Datetimes [PST], absolute pressure, atmospheric pressure, TWL [m], and TWL NAVD88 [m] for all locations *(update before further analysis on future data)*
+- `lowill_totalwaterlevel_dataset.csv` — Datetimes [PST] and TWL NAVD88 [m] for all locations
+- `lowill_complete_dataset.csv.zip` — Datetimes [PST], absolute pressure, atmospheric pressure, TWL [m], and TWL NAVD88 [m] for all locations *(update before further analysis on future data)*
 - `lowill_deployment_tracking_sheet.pdf` - Deployment Tracking Sheet
 - `lowill_polished_survey_data.csv` — Survey data
 - `lowill_sensor_locations.kml` — Google Earth KML file *(see Figure 1 in Deployment Locations)*
-- **Total water level plotter** (Jupyter Notebook) — Plots TWL NAVD88 per location from the polished dataframe
-- **Data transformer** (Jupyter Notebook) — Converts raw data to TWL NAVD88; documents trimming and conversion steps
+- `lowill_totalwaterlevel_plotter.ipynb` (Jupyter Notebook) — Plots TWL NAVD88 per location from the polished dataframe
+- `lowill_data_corrections.ipynb` (Jupyter Notebook) — Converts raw data to TWL NAVD88; documents trimming and conversion steps
 - **Analysis** (Jupyter Notebook) — All analysis completed to date
 
 ---
